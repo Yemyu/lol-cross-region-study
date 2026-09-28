@@ -280,6 +280,10 @@ function formula(c) {
     <p>小局补充分 M＝${bonuses}＝${fmt(c.bonus)}</p>
     <strong>S＝${fmt(c.net)}＋${fmt(c.bonus)}＝${fmt(c.score)}</strong>`;
 }
+function seedDescription(s) {
+  const msi=s.msi_seed?`MSI ${s.msi_seed} 号种子：${fmt(s.msi_seed_base)} 分`:(s.msi_seed_status==='not_held'?(s.year===2020?'当年 MSI 取消：0 分':'当年尚无 MSI：0 分'):'未参加 MSI：0 分');
+  return `${msi}；世界赛 ${s.worlds_seed} 号种子：${fmt(s.worlds_seed_base)} 分。种子基础分合计 ${fmt(s.seed_base)}。`;
+}
 function renderDetails() {
   const s=sample(), e=s[scope()];
   const totalScore=scoreValue(s,'total');
@@ -287,12 +291,11 @@ function renderDetails() {
   $('selected-highlight').innerHTML=`<div class="team-identity">${brandIcon(s.team)}${html(s.team)}</div><p class="status-line">${html(status(s))}</p>${nearby}<div class="score-pair"><div><span>${scope()==='external'?'重要':'全部'}外战分</span><strong>${fmt(e.score)}</strong></div><div><span>${innerLabel()}</span><strong>${fmt(innerValue(s))}</strong></div><div><span>总得分</span><strong>${totalScore==null?'—':fmt(totalScore)}</strong>${totalScore==null?'<small class="score-missing">缺一侧分数</small>':''}</div></div>`;
   $('selected-highlight').insertAdjacentHTML('beforeend','<button type="button" class="breakdown-open" data-breakdown-open>查看积分构成 <span>展开 ↗</span></button><button type="button" class="timeline-open" data-timeline-open>全年比赛时间线 <span>查看 ↗</span></button>');
   $('selected-summary').innerHTML=`<div class="record-block"><h4>${scope()==='external'?'重要':'全部'}外战 · 大场合计</h4><p>${record(e)} / ${e.n} 场 · ${pct(e.rate)}；小局 ${e.n?`${e.gw}–${e.gl} / ${pct(e.map_rate)}`:'无交手'}</p>${formatBranches(e)}</div>
-    <div class="record-block"><h4>国际赛内战 · 大场合计</h4><p>${record(s.internal)} / ${s.internal.n} 场 · ${pct(s.internal.rate)} <small>实际大场胜率</small></p>${formatBranches(s.internal)}<p class="inner-parts">只统计 MSI 与世界赛同赛区交手；国内联赛不计入。</p><p class="seed-summary">世界赛 ${s.worlds_seed} 号种子：基础分 ${fmt(s.seed_base)}。<br>比赛积分 ${fmt(s.inner_score||0)} ＋ 种子 ${fmt(s.seed_base)} ＝ ${fmt(s.seeded_inner_score)}${s.internal.n?'':'（仅种子分，内战 0 场）'}。<a href="${html(s.seed_source)}" target="_blank" rel="noopener">种子依据 ↗</a></p></div>`;
+    <div class="record-block"><h4>国际赛内战 · 大场合计</h4><p>${record(s.internal)} / ${s.internal.n} 场 · ${pct(s.internal.rate)} <small>实际大场胜率</small></p>${formatBranches(s.internal)}<p class="inner-parts">只统计 MSI 与世界赛同赛区交手；国内联赛不计入。</p><p class="seed-summary">${seedDescription(s)}<br>比赛积分 ${fmt(s.inner_score||0)} ＋ MSI ${fmt(s.msi_seed_base)} ＋ 世界赛 ${fmt(s.worlds_seed_base)} ＝ ${fmt(s.seeded_inner_score)}${s.internal.n?'':'（内战 0 场，仅种子分）'}。<br>${s.msi_seed?`<a href="${html(s.msi_seed_source)}" target="_blank" rel="noopener">MSI 种子依据 ↗</a> · `:''}<a href="${html(s.seed_source)}" target="_blank" rel="noopener">世界赛种子依据 ↗</a></p></div>`;
   renderMatchDetail(s);
   $('calc-title').innerHTML=`${brandIcon(s.team)}${s.year} ${html(s.short)} · 计算明细`;
-  const total=`内外战分别累计逐场大场分和小局补分；国内比赛不计分。当前横轴：${innerLabel()}。世界赛 ${s.worlds_seed} 号种子基础分 ${fmt(s.seed_base)}；比赛积分 ${fmt(s.inner_score||0)}＋种子 ${fmt(s.seed_base)}＝${fmt(s.seeded_inner_score)}。种子信息是世界赛前的资格排序，不是 MSI 开赛前预测。`;
-  const sensitivityRows=['25','50','75'].map(f=>`<tr class="${f==='50'?'chosen':''}"><td>${f}%${f==='50'?' · 图表使用':''}</td><td>${fmt(s.sensitivity[f][scope()])}</td><td>${fmt(seeded()?(s.sensitivity[f].inner||0)+s.seed_base:s.sensitivity[f].inner)}</td></tr>`).join('');
-  $('calc-body').innerHTML=`<div class="calc-grid"><div class="calc-item"><b>${scope()==='external'?'重要':'全部'}外战 · 100%</b>${formula(e)}</div><div class="calc-item"><b>国际赛内战 · 100%</b>${formula(s.international)}</div></div><div class="calc-total">${total}</div><div class="sensitivity"><h4>扣分比例换成 25% 或 75% 时</h4><p>只改变败场扣分，其余规则与比赛保持一致。比较积分变化，不根据队伍名次重选 50% 的主规则。</p><table><thead><tr><th>败场扣胜场分值</th><th>所选外战分</th><th>内战分</th></tr></thead><tbody>${sensitivityRows}</tbody></table></div>`;
+  const total=`当前横轴：${innerLabel()}。${seeded()?`比赛积分 ${fmt(s.inner_score||0)} ＋ MSI 种子 ${fmt(s.msi_seed_base)} ＋ 世界赛种子 ${fmt(s.worlds_seed_base)} ＝ ${fmt(s.seeded_inner_score)}。${seedDescription(s)}`:'此视图只显示国际赛内战的比赛积分，不加种子基础分。'}国内比赛不计分，败场统一扣同赛事、同赛制胜利基础分的 50%。`;
+  $('calc-body').innerHTML=`<div class="calc-grid"><div class="calc-item"><b>${scope()==='external'?'重要':'全部'}外战</b>${formula(e)}</div><div class="calc-item"><b>国际赛内战</b>${formula(s.international)}</div></div><div class="calc-total">${total}</div>`;
   $('match-title').textContent=`${s.year} ${s.short} · 所选外战与国际赛内战逐场记录`;
   const ids=[...new Set([...e.ids,...s.internal.ids])];
   $('matches').innerHTML=ids.map(id=>D.matches[id]).sort((a,b)=>a.date.localeCompare(b.date)).map(r=>{

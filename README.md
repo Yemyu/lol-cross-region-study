@@ -30,7 +30,9 @@ LPL、LCK 和两个赛区合并的三张散点图。每个点是一支队伍在�
 
 BO5、BO3 每场另加 `该场胜利基础分 ÷ 6 × 该场小局胜率`，赢或输都计算；BO1 不另补分。内战与外战分别累计。
 
-图表还可以在内战分上加世界赛种子基础分：一至四号种子分别为 4.5、3、1.5、0。这是世界赛前资格排序的背景信息，不代表 MSI 开赛前的水平。
+图表可以在内战比赛分上加两项种子基础分：MSI 一号 3 分、二号 1.5 分；世界赛一至四号种子分别为 4.5、3、1.5、0 分。两项相加，最高 7.5 分。种子指同赛区出线顺位，不是抽签池；早期只有一个 MSI 名额的参赛队按一号种子计分。未参加 MSI、当年取消或尚未创办时，MSI 种子分为 0。
+
+每个年度样本的 MSI 种子身份和来源记录在 `msi-seeds.json`。切换到纯国际赛内战视图时，两项种子分都不计入。
 
 场次多、走得远的队伍有更多得分机会；积分不适合脱离战绩和赛制单独解释。
 
@@ -46,7 +48,7 @@ python3 -m http.server 8000
 
 ## 数据和检查
 
-`data.js` 是当前页面的数据快照；`matches.csv`、`summary.csv` 和 `sensitivity.csv` 分别保存逐场、汇总和扣分比例对照。每条比赛保留来源链接。
+`data.js` 是当前页面的数据快照；`matches.csv` 和 `summary.csv` 分别保存逐场记录和汇总。每条比赛保留来源链接。
 
 主要来源是 [Games of Legends](https://gol.gg/) 与 [GPTilt / Leaguepedia 比赛快照](https://huggingface.co/datasets/gptilt/lol-esports-matches)，部分资格信息引用 [LoL Esports](https://lolesports.com/)。现有跨来源核对记录在 `international-audit.json`。这个仓库发布当前快照和展示代码，不包含原始网页缓存，也不提供自动追踪新赛果的服务。
 

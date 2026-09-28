@@ -20,6 +20,7 @@
     box.append(tabs,body,footer);section.append(box);activate(0);
     return {activate,entries};
   }
+  document.querySelector('.site-mark').innerHTML=brandIcon('worlds',true);
   const scope=document.getElementById('scope'),method=document.getElementById('method');
   const scopeDeck=deck(scope,[['统计口径',[scope.querySelector('.scope-grid')]],['年度队伍与欧洲对手',[scope.querySelector('.pool-box'),scope.querySelector('.seed-box')]],['数据覆盖与来源',[scope.querySelector('.limitations')]]]);
   const articles=[...method.querySelectorAll('.method-grid > article')],grid=method.querySelector('.method-grid');

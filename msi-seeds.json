@@ -1,0 +1,1159 @@
+{
+  "review_date": "2026-09-28",
+  "rule": "MSI regional seed 1 = 3; seed 2 = 1.5; additive to Worlds seed points. No attendance / no event = 0.",
+  "coverage": "Current Worlds-qualified annual samples only; MSI-only teams are not added to the study.",
+  "rows": [
+    {
+      "id": "2012-LCK-AZF",
+      "year": 2012,
+      "region": "LCK",
+      "team": "Azubu Frost",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2012-LCK-NJS",
+      "year": 2012,
+      "region": "LCK",
+      "team": "NaJin Sword",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2012-LPL-iG",
+      "year": 2012,
+      "region": "LPL",
+      "team": "Invictus Gaming",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2012-LPL-WE",
+      "year": 2012,
+      "region": "LPL",
+      "team": "Team WE",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2013-LCK-NJS",
+      "year": 2013,
+      "region": "LCK",
+      "team": "Najin Black Sword",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2013-LCK-SKT",
+      "year": 2013,
+      "region": "LCK",
+      "team": "SK Telecom T1",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2013-LCK-SSO",
+      "year": 2013,
+      "region": "LCK",
+      "team": "Samsung Ozone",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2013-LPL-OMG",
+      "year": 2013,
+      "region": "LPL",
+      "team": "OMG",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2013-LPL-RYL",
+      "year": 2013,
+      "region": "LPL",
+      "team": "Royal Club",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2014-LCK-NJWS",
+      "year": 2014,
+      "region": "LCK",
+      "team": "NaJin White Shield",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2014-LCK-SSB",
+      "year": 2014,
+      "region": "LCK",
+      "team": "Samsung Galaxy Blue",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2014-LCK-SSW",
+      "year": 2014,
+      "region": "LCK",
+      "team": "Samsung Galaxy White",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2014-LPL-EDG",
+      "year": 2014,
+      "region": "LPL",
+      "team": "Edward Gaming",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2014-LPL-OMG",
+      "year": 2014,
+      "region": "LPL",
+      "team": "OMG",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2014-LPL-SHRC",
+      "year": 2014,
+      "region": "LPL",
+      "team": "Star Horn Royal Club",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2015-LCK-KOO",
+      "year": 2015,
+      "region": "LCK",
+      "team": "KOO Tigers",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://en.wikipedia.org/wiki/2015_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2015-LCK-KT",
+      "year": 2015,
+      "region": "LCK",
+      "team": "KT Rolster",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://en.wikipedia.org/wiki/2015_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2015-LCK-SKT",
+      "year": 2015,
+      "region": "LCK",
+      "team": "SKTelecom T1",
+      "seed": 1,
+      "base": 3.0,
+      "status": "qualified",
+      "source": "https://en.wikipedia.org/wiki/2015_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2015-LPL-EDG",
+      "year": 2015,
+      "region": "LPL",
+      "team": "Edward Gaming",
+      "seed": 1,
+      "base": 3.0,
+      "status": "qualified",
+      "source": "https://en.wikipedia.org/wiki/2015_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2015-LPL-iG",
+      "year": 2015,
+      "region": "LPL",
+      "team": "Invictus Gaming",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://en.wikipedia.org/wiki/2015_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2015-LPL-LGD",
+      "year": 2015,
+      "region": "LPL",
+      "team": "LGD Gaming",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://en.wikipedia.org/wiki/2015_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2016-LCK-ROX",
+      "year": 2016,
+      "region": "LCK",
+      "team": "ROX Tigers",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://en.wikipedia.org/wiki/2016_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2016-LCK-SKT",
+      "year": 2016,
+      "region": "LCK",
+      "team": "SK Telecom T1",
+      "seed": 1,
+      "base": 3.0,
+      "status": "qualified",
+      "source": "https://en.wikipedia.org/wiki/2016_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2016-LCK-SSG",
+      "year": 2016,
+      "region": "LCK",
+      "team": "Samsung Galaxy",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://en.wikipedia.org/wiki/2016_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2016-LPL-EDG",
+      "year": 2016,
+      "region": "LPL",
+      "team": "Edward Gaming",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://en.wikipedia.org/wiki/2016_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2016-LPL-IM",
+      "year": 2016,
+      "region": "LPL",
+      "team": "I MAY",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://en.wikipedia.org/wiki/2016_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2016-LPL-RNG",
+      "year": 2016,
+      "region": "LPL",
+      "team": "Royal Never Give Up",
+      "seed": 1,
+      "base": 3.0,
+      "status": "qualified",
+      "source": "https://en.wikipedia.org/wiki/2016_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2017-LCK-LZ",
+      "year": 2017,
+      "region": "LCK",
+      "team": "Longzhu Gaming",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://en.wikipedia.org/wiki/2017_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2017-LCK-SKT",
+      "year": 2017,
+      "region": "LCK",
+      "team": "SK Telecom T1",
+      "seed": 1,
+      "base": 3.0,
+      "status": "qualified",
+      "source": "https://en.wikipedia.org/wiki/2017_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2017-LCK-SSG",
+      "year": 2017,
+      "region": "LCK",
+      "team": "Samsung Galaxy",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://en.wikipedia.org/wiki/2017_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2017-LPL-EDG",
+      "year": 2017,
+      "region": "LPL",
+      "team": "Edward Gaming",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://en.wikipedia.org/wiki/2017_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2017-LPL-RNG",
+      "year": 2017,
+      "region": "LPL",
+      "team": "Royal Never Give Up",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://en.wikipedia.org/wiki/2017_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2017-LPL-WE",
+      "year": 2017,
+      "region": "LPL",
+      "team": "Team WE",
+      "seed": 1,
+      "base": 3.0,
+      "status": "qualified",
+      "source": "https://en.wikipedia.org/wiki/2017_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2018-LCK-AF",
+      "year": 2018,
+      "region": "LCK",
+      "team": "Afreeca Freecs",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://en.wikipedia.org/wiki/2018_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2018-LCK-GEN",
+      "year": 2018,
+      "region": "LCK",
+      "team": "Gen.G eSports",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://en.wikipedia.org/wiki/2018_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2018-LCK-KT",
+      "year": 2018,
+      "region": "LCK",
+      "team": "KT Rolster",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://en.wikipedia.org/wiki/2018_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2018-LPL-EDG",
+      "year": 2018,
+      "region": "LPL",
+      "team": "Edward Gaming",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://en.wikipedia.org/wiki/2018_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2018-LPL-iG",
+      "year": 2018,
+      "region": "LPL",
+      "team": "Invictus Gaming",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://en.wikipedia.org/wiki/2018_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2018-LPL-RNG",
+      "year": 2018,
+      "region": "LPL",
+      "team": "Royal Never Give Up",
+      "seed": 1,
+      "base": 3.0,
+      "status": "qualified",
+      "source": "https://en.wikipedia.org/wiki/2018_Mid-Season_Invitational",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2019-LCK-DWG",
+      "year": 2019,
+      "region": "LCK",
+      "team": "DAMWON Gaming",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://nexus.leagueoflegends.com/en-us/2019/04/2019-mid-season-invitational-event-overview/",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2019-LCK-GRF",
+      "year": 2019,
+      "region": "LCK",
+      "team": "Griffin",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://nexus.leagueoflegends.com/en-us/2019/04/2019-mid-season-invitational-event-overview/",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2019-LCK-SKT",
+      "year": 2019,
+      "region": "LCK",
+      "team": "SK Telecom T1",
+      "seed": 1,
+      "base": 3.0,
+      "status": "qualified",
+      "source": "https://nexus.leagueoflegends.com/en-us/2019/04/2019-mid-season-invitational-event-overview/",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2019-LPL-FPX",
+      "year": 2019,
+      "region": "LPL",
+      "team": "Funplus Phoenix",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://nexus.leagueoflegends.com/en-us/2019/04/2019-mid-season-invitational-event-overview/",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2019-LPL-iG",
+      "year": 2019,
+      "region": "LPL",
+      "team": "Invictus Gaming",
+      "seed": 1,
+      "base": 3.0,
+      "status": "qualified",
+      "source": "https://nexus.leagueoflegends.com/en-us/2019/04/2019-mid-season-invitational-event-overview/",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2019-LPL-RNG",
+      "year": 2019,
+      "region": "LPL",
+      "team": "Royal Never Give Up",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://nexus.leagueoflegends.com/en-us/2019/04/2019-mid-season-invitational-event-overview/",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2020-LCK-DWG",
+      "year": 2020,
+      "region": "LCK",
+      "team": "DAMWON Gaming",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2020-LCK-DRX",
+      "year": 2020,
+      "region": "LCK",
+      "team": "DragonX",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2020-LCK-GEN",
+      "year": 2020,
+      "region": "LCK",
+      "team": "Gen.G eSports",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2020-LPL-JDG",
+      "year": 2020,
+      "region": "LPL",
+      "team": "JD Gaming",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2020-LPL-LGD",
+      "year": 2020,
+      "region": "LPL",
+      "team": "LGD Gaming",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2020-LPL-SN",
+      "year": 2020,
+      "region": "LPL",
+      "team": "Suning",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2020-LPL-TES",
+      "year": 2020,
+      "region": "LPL",
+      "team": "Top Esports",
+      "seed": null,
+      "base": 0,
+      "status": "not_held",
+      "source": null,
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2021-LCK-DK",
+      "year": 2021,
+      "region": "LCK",
+      "team": "DWG KIA",
+      "seed": 1,
+      "base": 3.0,
+      "status": "qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2021-qualified-teams-broadcast-schedule-watch-rewards",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2021-LCK-GEN",
+      "year": 2021,
+      "region": "LCK",
+      "team": "Gen.G eSports",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2021-qualified-teams-broadcast-schedule-watch-rewards",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2021-LCK-HLE",
+      "year": 2021,
+      "region": "LCK",
+      "team": "Hanwha Life eSports",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2021-qualified-teams-broadcast-schedule-watch-rewards",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2021-LCK-T1",
+      "year": 2021,
+      "region": "LCK",
+      "team": "T1",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2021-qualified-teams-broadcast-schedule-watch-rewards",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2021-LPL-EDG",
+      "year": 2021,
+      "region": "LPL",
+      "team": "Edward Gaming",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2021-qualified-teams-broadcast-schedule-watch-rewards",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2021-LPL-FPX",
+      "year": 2021,
+      "region": "LPL",
+      "team": "Funplus Phoenix",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2021-qualified-teams-broadcast-schedule-watch-rewards",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2021-LPL-LNG",
+      "year": 2021,
+      "region": "LPL",
+      "team": "LNG Esports",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2021-qualified-teams-broadcast-schedule-watch-rewards",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2021-LPL-RNG",
+      "year": 2021,
+      "region": "LPL",
+      "team": "Royal Never Give Up",
+      "seed": 1,
+      "base": 3.0,
+      "status": "qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2021-qualified-teams-broadcast-schedule-watch-rewards",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2022-LCK-DRX",
+      "year": 2022,
+      "region": "LCK",
+      "team": "DRX",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-US/news/msi-updates---group-draw-results-adjusted-dates-and-venue",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2022-LCK-DK",
+      "year": 2022,
+      "region": "LCK",
+      "team": "DWG KIA",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-US/news/msi-updates---group-draw-results-adjusted-dates-and-venue",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2022-LCK-GEN",
+      "year": 2022,
+      "region": "LCK",
+      "team": "Gen.G eSports",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-US/news/msi-updates---group-draw-results-adjusted-dates-and-venue",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2022-LCK-T1",
+      "year": 2022,
+      "region": "LCK",
+      "team": "T1",
+      "seed": 1,
+      "base": 3.0,
+      "status": "qualified",
+      "source": "https://lolesports.com/en-US/news/msi-updates---group-draw-results-adjusted-dates-and-venue",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2022-LPL-EDG",
+      "year": 2022,
+      "region": "LPL",
+      "team": "Edward Gaming",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-US/news/msi-updates---group-draw-results-adjusted-dates-and-venue",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2022-LPL-JDG",
+      "year": 2022,
+      "region": "LPL",
+      "team": "JD Gaming",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-US/news/msi-updates---group-draw-results-adjusted-dates-and-venue",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2022-LPL-RNG",
+      "year": 2022,
+      "region": "LPL",
+      "team": "Royal Never Give Up",
+      "seed": 1,
+      "base": 3.0,
+      "status": "qualified",
+      "source": "https://lolesports.com/en-US/news/msi-updates---group-draw-results-adjusted-dates-and-venue",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2022-LPL-TES",
+      "year": 2022,
+      "region": "LPL",
+      "team": "Top Esports",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-US/news/msi-updates---group-draw-results-adjusted-dates-and-venue",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2023-LCK-DK",
+      "year": 2023,
+      "region": "LCK",
+      "team": "Dplus KIA",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-GB/news/msi-2023-primer",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2023-LCK-GEN",
+      "year": 2023,
+      "region": "LCK",
+      "team": "Gen.G eSports",
+      "seed": 1,
+      "base": 3.0,
+      "status": "qualified",
+      "source": "https://lolesports.com/en-GB/news/msi-2023-primer",
+      "note": "Regional qualification order, not draw pool.",
+      "qualification_sources": [
+        "https://gol.gg/game/stats/48766/page-summary/"
+      ]
+    },
+    {
+      "id": "2023-LCK-KT",
+      "year": 2023,
+      "region": "LCK",
+      "team": "KT Rolster",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-GB/news/msi-2023-primer",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2023-LCK-T1",
+      "year": 2023,
+      "region": "LCK",
+      "team": "T1",
+      "seed": 2,
+      "base": 1.5,
+      "status": "qualified",
+      "source": "https://lolesports.com/en-GB/news/msi-2023-primer",
+      "note": "Regional qualification order, not draw pool.",
+      "qualification_sources": [
+        "https://gol.gg/game/stats/48766/page-summary/"
+      ]
+    },
+    {
+      "id": "2023-LPL-BLG",
+      "year": 2023,
+      "region": "LPL",
+      "team": "Bilibili Gaming",
+      "seed": 2,
+      "base": 1.5,
+      "status": "qualified",
+      "source": "https://lolesports.com/en-GB/news/msi-2023-primer",
+      "note": "Regional qualification order, not draw pool.",
+      "qualification_sources": [
+        "https://gol.gg/game/stats/48886/page-summary/"
+      ]
+    },
+    {
+      "id": "2023-LPL-JDG",
+      "year": 2023,
+      "region": "LPL",
+      "team": "JD Gaming",
+      "seed": 1,
+      "base": 3.0,
+      "status": "qualified",
+      "source": "https://lolesports.com/en-GB/news/msi-2023-primer",
+      "note": "Regional qualification order, not draw pool.",
+      "qualification_sources": [
+        "https://gol.gg/game/stats/48886/page-summary/"
+      ]
+    },
+    {
+      "id": "2023-LPL-LNG",
+      "year": 2023,
+      "region": "LPL",
+      "team": "LNG Esports",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-GB/news/msi-2023-primer",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2023-LPL-WBG",
+      "year": 2023,
+      "region": "LPL",
+      "team": "Weibo Gaming",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-GB/news/msi-2023-primer",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2024-LCK-DK",
+      "year": 2024,
+      "region": "LCK",
+      "team": "Dplus KIA",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2024-primer",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2024-LCK-GEN",
+      "year": 2024,
+      "region": "LCK",
+      "team": "Gen.G eSports",
+      "seed": 1,
+      "base": 3.0,
+      "status": "qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2024-primer",
+      "note": "Regional qualification order, not draw pool.",
+      "qualification_sources": [
+        "https://gol.gg/game/stats/57849/page-summary/"
+      ]
+    },
+    {
+      "id": "2024-LCK-HLE",
+      "year": 2024,
+      "region": "LCK",
+      "team": "Hanwha Life eSports",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2024-primer",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2024-LCK-T1",
+      "year": 2024,
+      "region": "LCK",
+      "team": "T1",
+      "seed": 2,
+      "base": 1.5,
+      "status": "qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2024-primer",
+      "note": "Regional qualification order, not draw pool.",
+      "qualification_sources": [
+        "https://gol.gg/game/stats/57849/page-summary/"
+      ]
+    },
+    {
+      "id": "2024-LPL-BLG",
+      "year": 2024,
+      "region": "LPL",
+      "team": "Bilibili Gaming",
+      "seed": 1,
+      "base": 3.0,
+      "status": "qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2024-primer",
+      "note": "Regional qualification order, not draw pool.",
+      "qualification_sources": [
+        "https://gol.gg/game/stats/57867/page-summary/"
+      ]
+    },
+    {
+      "id": "2024-LPL-LNG",
+      "year": 2024,
+      "region": "LPL",
+      "team": "LNG Esports",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2024-primer",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2024-LPL-TES",
+      "year": 2024,
+      "region": "LPL",
+      "team": "Top Esports",
+      "seed": 2,
+      "base": 1.5,
+      "status": "qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2024-primer",
+      "note": "Regional qualification order, not draw pool.",
+      "qualification_sources": [
+        "https://gol.gg/game/stats/57867/page-summary/"
+      ]
+    },
+    {
+      "id": "2024-LPL-WBG",
+      "year": 2024,
+      "region": "LPL",
+      "team": "Weibo Gaming",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2024-primer",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2025-LCK-GEN",
+      "year": 2025,
+      "region": "LCK",
+      "team": "Gen.G eSports",
+      "seed": 1,
+      "base": 3.0,
+      "status": "qualified",
+      "source": "https://lolesports.com/en-au/news/msi-2025-primer",
+      "note": "Regional qualification order, not draw pool.",
+      "qualification_sources": [
+        "https://gol.gg/game/stats/68995/page-summary/",
+        "https://gol.gg/game/stats/69151/page-summary/"
+      ]
+    },
+    {
+      "id": "2025-LCK-HLE",
+      "year": 2025,
+      "region": "LCK",
+      "team": "Hanwha Life eSports",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-au/news/msi-2025-primer",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2025-LCK-KT",
+      "year": 2025,
+      "region": "LCK",
+      "team": "KT Rolster",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-au/news/msi-2025-primer",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2025-LCK-T1",
+      "year": 2025,
+      "region": "LCK",
+      "team": "T1",
+      "seed": 2,
+      "base": 1.5,
+      "status": "qualified",
+      "source": "https://lolesports.com/en-au/news/msi-2025-primer",
+      "note": "Regional qualification order, not draw pool.",
+      "qualification_sources": [
+        "https://gol.gg/game/stats/68995/page-summary/",
+        "https://gol.gg/game/stats/69151/page-summary/"
+      ]
+    },
+    {
+      "id": "2025-LPL-AL",
+      "year": 2025,
+      "region": "LPL",
+      "team": "Anyone's Legend",
+      "seed": 1,
+      "base": 3.0,
+      "status": "qualified",
+      "source": "https://lolesports.com/en-au/news/msi-2025-primer",
+      "note": "Regional qualification order, not draw pool.",
+      "qualification_sources": [
+        "https://gol.gg/game/stats/69141/page-summary/"
+      ]
+    },
+    {
+      "id": "2025-LPL-BLG",
+      "year": 2025,
+      "region": "LPL",
+      "team": "Bilibili Gaming",
+      "seed": 2,
+      "base": 1.5,
+      "status": "qualified",
+      "source": "https://lolesports.com/en-au/news/msi-2025-primer",
+      "note": "Regional qualification order, not draw pool.",
+      "qualification_sources": [
+        "https://gol.gg/game/stats/69141/page-summary/"
+      ]
+    },
+    {
+      "id": "2025-LPL-iG",
+      "year": 2025,
+      "region": "LPL",
+      "team": "Invictus Gaming",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-au/news/msi-2025-primer",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2025-LPL-TES",
+      "year": 2025,
+      "region": "LPL",
+      "team": "Top Esports",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-au/news/msi-2025-primer",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2026-LCK-DK",
+      "year": 2026,
+      "region": "LCK",
+      "team": "Dplus KIA",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2026-primer",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2026-LCK-GEN",
+      "year": 2026,
+      "region": "LCK",
+      "team": "Gen.G",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2026-primer",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2026-LCK-HLE",
+      "year": 2026,
+      "region": "LCK",
+      "team": "Hanwha Life Esports",
+      "seed": 1,
+      "base": 3.0,
+      "status": "qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2026-primer",
+      "note": "Regional qualification order, not draw pool.",
+      "qualification_sources": [
+        "https://gol.gg/game/stats/79275/page-summary/",
+        "https://gol.gg/game/stats/79479/page-summary/"
+      ]
+    },
+    {
+      "id": "2026-LCK-T1",
+      "year": 2026,
+      "region": "LCK",
+      "team": "T1",
+      "seed": 2,
+      "base": 1.5,
+      "status": "qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2026-primer",
+      "note": "Regional qualification order, not draw pool.",
+      "qualification_sources": [
+        "https://gol.gg/game/stats/79275/page-summary/",
+        "https://gol.gg/game/stats/79479/page-summary/"
+      ]
+    },
+    {
+      "id": "2026-LPL-AL",
+      "year": 2026,
+      "region": "LPL",
+      "team": "Anyone's Legend",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2026-primer",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2026-LPL-BLG",
+      "year": 2026,
+      "region": "LPL",
+      "team": "Bilibili Gaming",
+      "seed": 1,
+      "base": 3.0,
+      "status": "qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2026-primer",
+      "note": "Regional qualification order, not draw pool.",
+      "qualification_sources": [
+        "https://gol.gg/game/stats/79523/page-summary/"
+      ]
+    },
+    {
+      "id": "2026-LPL-iG",
+      "year": 2026,
+      "region": "LPL",
+      "team": "Invictus Gaming",
+      "seed": null,
+      "base": 0,
+      "status": "not_qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2026-primer",
+      "note": "Regional qualification order, not draw pool."
+    },
+    {
+      "id": "2026-LPL-TES",
+      "year": 2026,
+      "region": "LPL",
+      "team": "Top Esports",
+      "seed": 2,
+      "base": 1.5,
+      "status": "qualified",
+      "source": "https://lolesports.com/en-US/news/msi-2026-primer",
+      "note": "Regional qualification order, not draw pool.",
+      "qualification_sources": [
+        "https://gol.gg/game/stats/79523/page-summary/"
+      ]
+    }
+  ]
+}

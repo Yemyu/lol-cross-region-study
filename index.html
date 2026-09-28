@@ -2,11 +2,11 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>内外战表现 · 2012—2026</title>
+  <title>LoL 国际赛战绩 · 2012—2026</title>
   <link rel="stylesheet" href="style.css"><script defer src="vendor/d3.min.js"></script><script defer src="data.js"></script><script defer src="logos.js"></script><script defer src="app.js"></script><script defer src="guide.js"></script>
 </head>
 <body>
-<header><a class="brand" href="#">RIFT<span> / </span>研究手记</a><nav><a href="#method">计算方法</a><a href="#scope">统计范围</a><a href="#charts">图表</a><a href="#records">战绩</a></nav><small>数据版本 · 06</small></header>
+<header><a class="brand" href="#" aria-label="LoL 国际赛战绩，返回顶部"><span class="site-mark" aria-hidden="true"></span><span class="brand-name">LoL<span class="brand-divider"> / </span>国际赛战绩</span></a><nav><a href="#method">计算方法</a><a href="#scope">统计范围</a><a href="#charts">图表</a><a href="#records">战绩</a></nav><small>数据版本 · 06.3</small></header>
 <main>
   <section class="hero"><div class="eyebrow">LEAGUE OF LEGENDS / 2012—2026</div><h1>历年内外战表现</h1><div class="hero-bottom"><p>比较 LPL、LCK 世界赛代表队在全年 MSI 与世界赛中，对外赛区与同赛区队伍的交手。<br>2026 年仅统计至 9 月 27 日；无交手样本在图表边缘单独展示。</p><div class="hero-count"><b id="hero-count">100</b><span>已记录年度队伍样本<br><span id="hero-breakdown">LPL 50 / LCK 50</span></span></div></div></section>
   <section id="method">
@@ -14,7 +14,7 @@
     <div class="method-grid">
       <article><span class="step">A</span><h3>大场胜利与失利</h3><table><thead><tr><th>赛制</th><th>MSI 胜／负</th><th>世界赛 胜／负</th></tr></thead><tbody><tr><td>BO5</td><td>＋5／−2.5</td><td>＋7.5／−3.75</td></tr><tr><td>BO3</td><td>＋2.5／−1.25</td><td>＋3.5／−1.75</td></tr><tr><td>BO1</td><td>＋1／−0.5</td><td>＋2／−1</td></tr></tbody></table><p>失败扣同赛事、同赛制胜利分值的 50%。一胜一负保留半份胜利积分，两负抵消一胜。历史 MSI 的 BO1 仍按 1 分计算。</p><p>世界赛 BO5 比 MSI 高 50%，BO3 多 1 分，BO1 多 1 分。这是重视世界赛成绩的评价约定，不是估计出的实力系数，也不用于抵消 MSI 的比赛数量。</p></article>
       <article><span class="step">B</span><h3>逐场小局补分</h3><div class="formula">每场补分＝本场胜利基础分 ÷ 6<br>× 本场小局胜数 ÷ 本场小局总数<br>比赛积分＝所有大场加扣分＋所有补分</div><p>BO5、BO3 无论胜负均计算；BO1 不另补分。补分逐场计算后累加，与全年大场净分的正负无关。</p><p>每场补分最多为该场胜利基础分的六分之一。全年净积分由加分、扣分和补分相加得到，补分占全年净积分的比例不设上限。六分之一是固定评价权重，不是数据拟合结果。</p><table><thead><tr><th>世界赛 BO5</th><th>补分</th><th>合计</th></tr></thead><tbody><tr><td>3∶0</td><td>＋1.25</td><td>8.75</td></tr><tr><td>3∶2</td><td>＋0.75</td><td>8.25</td></tr><tr><td>2∶3</td><td>＋0.50</td><td>−3.25</td></tr><tr><td>0∶3</td><td>0</td><td>−3.75</td></tr></tbody></table><p>BO3 同比缩放：世界赛 2∶1 补 3.5÷6×2/3＝0.39；1∶2 补 0.19。MSI 按 2.5 的基础分计算。详情同时展示全年小局胜率。</p></article>
-      <article><span class="step">C</span><h3>内外战分别累计</h3><div class="weight"><span>统计赛事</span><b>MSI＋世界赛</b></div><div class="formula">外战分＝外战大场净分＋外战小局补充分<br>内战分＝内战大场净分＋内战小局补充分<br>含种子分＝内战分＋世界赛种子基础分</div><p>内战只统计国际赛中对同赛区队伍的比赛；国内常规赛、季后赛和资格赛均不计分。内外战使用同一分值表，独立累计逐场补分。</p><p>多打、多赢会累计更多积分，不均衡赛事场次。无交手的累计贡献为 0，但没有可评价的表现：图中放进独立无交手带，不画在数值零线上，也不参与需要两侧战绩的反差排名。</p><p>种子基础分：一号 4.5、二号 3、三号 1.5、四号 0，每档相差 1.5；少于四支代表队时不平移。它是世界赛前的资格排序背景，不是 MSI 开赛前预测。图表可切换纯比赛分或含种子分；无内战时仅有种子分，仍用空心点。种子基础分不参与小局补分。</p></article>
+      <article><span class="step">C</span><h3>内外战分别累计</h3><div class="weight"><span>统计赛事</span><b>MSI＋世界赛</b></div><div class="formula">外战分＝外战大场净分＋外战小局补充分<br>内战分＝内战大场净分＋内战小局补充分<br>含种子分＝内战分＋MSI 种子分＋世界赛种子分</div><p>内战只统计国际赛中对同赛区队伍的比赛；国内常规赛、季后赛和资格赛均不计分。内外战使用同一分值表，独立累计逐场补分。</p><p>多打、多赢会累计更多积分，不均衡赛事场次。无交手的累计贡献为 0，但没有可评价的表现：图中放进独立无交手带，不画在数值零线上，也不参与需要两侧战绩的反差排名。</p><p>种子分按同赛区出线顺位计算，不是抽签池：MSI 一号 3 分、二号 1.5 分；世界赛一号 4.5 分、二号 3 分、三号 1.5 分、四号 0 分。两项相加，最高 7.5 分；仅一个 MSI 名额的参赛队按一号种子计分。未参加 MSI、当年取消或尚未创办时，MSI 种子分为 0。图表可切换纯比赛分或含种子分；无内战时仅有种子分，仍用空心点。种子分不参与小局补分。</p></article>
     </div>
     <div id="calculation" class="calculation"><div class="section-head"><h3 id="calc-title"></h3><span class="muted">随所选队伍联动 · 页面数字四舍五入到两位小数</span></div><div id="calc-body"></div></div>
   </section>
@@ -26,7 +26,7 @@
   </section>
   <section id="charts">
     <div class="section-head"><div><div class="eyebrow">03 / MATCH PERFORMANCE</div><h2>内战与外战积分</h2></div><div class="filters"><label>年份<select id="year"><option value="all">全部年份</option><option value="since-2015">2015 年及之后</option><option value="before-2015">2015 年之前</option></select></label><label>内战视图<select id="inner-mode"><option value="match">纯国际赛内战</option><option value="seeded">含种子基础分</option></select></label><label>外战范围<select id="scope-filter"><option value="external">重要外战</option><option value="all_external">全部外战</option></select></label><button id="replay">重播入场</button></div></div>
-    <p class="reading">横轴可切换国际赛内战分或含种子基础分，纵轴是外战分。俱乐部筛选跨年份归并同一组织（例如 SKT 与 T1），用来观察一个俱乐部不同年份的点；“全部队伍”保留整张图。“选择类别”包含全部队伍、各俱乐部和年度赛事成绩；“筛选”只显示该类别，“高亮”突出该类别并保留其他点；“国际赛冠军”指 MSI 或世界赛冠军，“世界赛四强及以上”包含决赛队伍。每张图都可按外战分、当前内战分和两项相加的总分筛选；空白表示不限，按页面显示的两位小数筛选，包含所填最低值；筛选不改变三图共同的坐标尺度。无交手不等于实际得 0 分；纯内战视图里缺少一侧的样本不参与总分筛选，含种子视图则按当前横轴的“内战分＋种子分”计算，外战仍须有交手。<span class="legend"><i class="blue"></i>LPL <i class="orange"></i>LCK <i class="ring"></i>当前选中</span></p>
+    <p class="reading">横轴可切换国际赛内战分或含种子基础分，纵轴是外战分。俱乐部筛选跨年份归并同一组织（例如 SKT 与 T1），用来观察一个俱乐部不同年份的点；“全部队伍”保留整张图。“选择类别”包含全部队伍、各俱乐部和年度赛事成绩；“筛选”只显示该类别，“高亮”突出该类别并保留其他点；“国际赛冠军”指 MSI 或世界赛冠军，“世界赛四强及以上”包含决赛队伍。每张图都可按外战分、当前内战分和两项相加的总分筛选；空白表示不限，按页面显示的两位小数筛选，包含所填最低值；筛选不改变三图共同的坐标尺度。无交手不等于实际得 0 分；纯内战视图里缺少一侧的样本不参与总分筛选，含种子视图则按当前横轴的“内战分＋MSI 种子分＋世界赛种子分”计算，外战仍须有交手。<span class="legend"><i class="blue"></i>LPL <i class="orange"></i>LCK <i class="ring"></i>当前选中</span></p>
     <div class="chart-layout">
       <div class="chart-stack">
         <div class="chart-card"><div class="plot-heading"><h3>LPL</h3><span id="lpl-count">与另两图同一尺度</span></div><div class="plot-card-layout"><aside class="plot-control-rail"><h4>LPL 类别</h4><label>选择类别<select id="lpl-club"></select></label><div class="view-mode" role="group" aria-label="LPL 图显示方式"><button type="button" data-view-chart="lpl" data-view-mode="filter" aria-pressed="true" class="active">筛选</button><button type="button" data-view-chart="lpl" data-view-mode="highlight" aria-pressed="false">高亮</button></div><div class="score-filter"><h5>最低积分</h5><label class="score-filter-row"><span>外战分 ≥</span><input id="lpl-external-min" type="number" step="0.01" inputmode="decimal" placeholder="不限" aria-label="LPL 图外战分最低值"></label><label class="score-filter-row"><span>内战分 ≥</span><input id="lpl-internal-min" type="number" step="0.01" inputmode="decimal" placeholder="不限" aria-label="LPL 图内战分最低值"></label><label class="score-filter-row"><span>总分 ≥</span><input id="lpl-total-min" type="number" step="0.01" inputmode="decimal" placeholder="不限" aria-label="LPL 图总分最低值"></label><button class="score-filter-reset" type="button" data-score-reset="lpl">清除分数筛选</button><p>留空不限，多项条件同时生效。</p></div></aside><div id="lpl" class="plot"></div></div></div>
@@ -35,14 +35,16 @@
       </div>
       <aside class="detail-rail"><div class="detail"><div id="selected"><div class="detail-head"><div class="eyebrow">SELECTED TEAM / 年度样本</div><label class="sr" for="team">选择队伍</label><select id="team"></select><div id="selected-highlight"></div></div><div id="selected-summary"></div><div id="selected-more"></div></div><a class="quiet-link" href="#calculation">查看这支队伍的计算过程 ↑</a></div></aside>
     </div>
-    <div class="inline-rule"><b>本图使用的公式</b><p>MSI：BO5 ＋5／−2.5，BO3 ＋2.5／−1.25，BO1 ＋1／−0.5。世界赛：BO5 ＋7.5／−3.75，BO3 ＋3.5／−1.75，BO1 ＋2／−1。内外战分别计算：每场大场加扣分，加上本场胜利基础分÷6×本场小局胜率（BO1 不补），再全年累计。含种子模式另加一号4.5／二号3／三号1.5／四号0分。国内比赛不计入。无交手带只承载样本，不表示平均分或零分表现。</p></div>
+    <div class="inline-rule"><b>本图使用的公式</b><p>MSI：BO5 ＋5／−2.5，BO3 ＋2.5／−1.25，BO1 ＋1／−0.5。世界赛：BO5 ＋7.5／−3.75，BO3 ＋3.5／−1.75，BO1 ＋2／−1。内外战分别计算：每场大场加扣分，加上本场胜利基础分÷6×本场小局胜率（BO1 不补），再全年累计。含种子模式另加 MSI 一号3／二号1.5分，以及世界赛一号4.5／二号3／三号1.5／四号0分。国内比赛不计入。无交手带只承载样本，不表示平均分或零分表现。</p></div>
+  </section>
+  <section id="selected-records" aria-labelledby="match-title">
+    <h3 class="subhead" id="match-title">逐场记录</h3><div class="table-scroll"><table><thead><tr><th>日期</th><th>赛事</th><th>类别</th><th>对手</th><th>比分 / 赛制</th><th>大场加扣分／小局补分</th><th>来源</th></tr></thead><tbody id="matches"></tbody></table></div>
   </section>
   <section id="records">
-    <div class="section-head"><div><div class="eyebrow">04 / RECORDS</div><h2>战绩与比赛量</h2></div><div class="download-links"><a class="quiet-link" href="summary.csv" download>下载汇总 CSV ↗</a><a class="quiet-link" href="sensitivity.csv" download>下载扣分比例对照 ↗</a></div></div>
+    <div class="section-head"><div><div class="eyebrow">04 / RECORDS</div><h2>战绩与比赛量</h2></div><div class="download-links"><a class="quiet-link" href="summary.csv" download>下载汇总 CSV ↗</a></div></div>
     <p class="muted">大场、小局均为实际计数。总战绩只包含 MSI 与世界赛；2026 截至 9 月 27 日。所有胜率均为实际胜负计数，不按积分权重调整。</p>
     <div class="table-controls"><label>筛选赛区<select id="region"><option value="all">两个赛区</option><option>LPL</option><option>LCK</option></select></label><label>搜索队伍<input id="search" placeholder="例如 GEN、RNG、2023"></label><span id="table-count"></span></div>
     <div class="table-scroll"><table class="stats"><thead><tr><th>年度队伍</th><th>资料状态</th><th>国际赛总战绩</th><th>全部外战</th><th>重要外战</th><th>重要外战 BO5 / BO3 / BO1</th><th>重要外战小局</th><th>国际赛内战</th><th id="score-column">重要外战分</th><th id="inner-column">内战分</th></tr></thead><tbody id="stats"></tbody></table></div><div class="pager"><button id="prev">上一页</button><span id="page"></span><button id="next">下一页</button></div>
-    <h3 class="subhead" id="match-title">逐场记录</h3><div class="table-scroll"><table><thead><tr><th>日期</th><th>赛事</th><th>类别</th><th>对手</th><th>比分 / 赛制</th><th>大场加扣分／小局补分</th><th>来源</th></tr></thead><tbody id="matches"></tbody></table></div>
   </section>
 
   <footer><span>2012—2026 / 截止 2026-09-27 / 国际赛战绩展示</span><a href="matches.csv" download>下载逐场数据</a><a href="https://gol.gg/" target="_blank" rel="noopener">Games of Legends ↗</a><a href="https://huggingface.co/datasets/gptilt/lol-esports-matches" target="_blank" rel="noopener">Leaguepedia 数据来源 ↗</a></footer>
