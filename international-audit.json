@@ -1,0 +1,186 @@
+{
+  "cutoff": "2026-09-27",
+  "gol_series": 1246,
+  "leaguepedia_raw_series": 1249,
+  "leaguepedia_effective_series": 1246,
+  "matched_series": 1246,
+  "counts": [
+    {
+      "year": 2015,
+      "event": "msi",
+      "gol": 18,
+      "leaguepedia": 18
+    },
+    {
+      "year": 2015,
+      "event": "worlds",
+      "gol": 56,
+      "leaguepedia": 56
+    },
+    {
+      "year": 2016,
+      "event": "msi",
+      "gol": 33,
+      "leaguepedia": 33
+    },
+    {
+      "year": 2016,
+      "event": "worlds",
+      "gol": 57,
+      "leaguepedia": 57
+    },
+    {
+      "year": 2017,
+      "event": "msi",
+      "gol": 61,
+      "leaguepedia": 61
+    },
+    {
+      "year": 2017,
+      "event": "worlds",
+      "gol": 88,
+      "leaguepedia": 88
+    },
+    {
+      "year": 2018,
+      "event": "msi",
+      "gol": 61,
+      "leaguepedia": 61
+    },
+    {
+      "year": 2018,
+      "event": "worlds",
+      "gol": 88,
+      "leaguepedia": 88
+    },
+    {
+      "year": 2019,
+      "event": "msi",
+      "gol": 61,
+      "leaguepedia": 61
+    },
+    {
+      "year": 2019,
+      "event": "worlds",
+      "gol": 88,
+      "leaguepedia": 88
+    },
+    {
+      "year": 2020,
+      "event": "worlds",
+      "gol": 84,
+      "leaguepedia": 84
+    },
+    {
+      "year": 2021,
+      "event": "msi",
+      "gol": 70,
+      "leaguepedia": 70
+    },
+    {
+      "year": 2021,
+      "event": "worlds",
+      "gol": 87,
+      "leaguepedia": 87
+    },
+    {
+      "year": 2022,
+      "event": "msi",
+      "gol": 69,
+      "leaguepedia": 69
+    },
+    {
+      "year": 2022,
+      "event": "worlds",
+      "gol": 94,
+      "leaguepedia": 94
+    },
+    {
+      "year": 2023,
+      "event": "msi",
+      "gol": 25,
+      "leaguepedia": 25
+    },
+    {
+      "year": 2023,
+      "event": "worlds",
+      "gol": 52,
+      "leaguepedia": 52
+    },
+    {
+      "year": 2024,
+      "event": "msi",
+      "gol": 24,
+      "leaguepedia": 24
+    },
+    {
+      "year": 2024,
+      "event": "worlds",
+      "gol": 50,
+      "leaguepedia": 50
+    },
+    {
+      "year": 2025,
+      "event": "msi",
+      "gol": 19,
+      "leaguepedia": 19
+    },
+    {
+      "year": 2025,
+      "event": "worlds",
+      "gol": 41,
+      "leaguepedia": 41
+    },
+    {
+      "year": 2026,
+      "event": "msi",
+      "gol": 20,
+      "leaguepedia": 20
+    }
+  ],
+  "gol_only": [],
+  "leaguepedia_only": [],
+  "pair_conflicts": [],
+  "date_flags": [],
+  "format_flags": [],
+  "excluded_voided": [
+    {
+      "year": 2022,
+      "event": "msi",
+      "a": "istanbulwildcats",
+      "b": "royalnevergiveup",
+      "x": 0,
+      "y": 1,
+      "date": "2022-05-10",
+      "format": "BO1",
+      "source": "https://lol.fandom.com/wiki/2022_Mid-Season_Invitational",
+      "original_event": "MSI 2022"
+    },
+    {
+      "year": 2022,
+      "event": "msi",
+      "a": "psgtalon",
+      "b": "royalnevergiveup",
+      "x": 0,
+      "y": 1,
+      "date": "2022-05-11",
+      "format": "BO1",
+      "source": "https://lol.fandom.com/wiki/2022_Mid-Season_Invitational",
+      "original_event": "MSI 2022"
+    },
+    {
+      "year": 2022,
+      "event": "msi",
+      "a": "redcanids",
+      "b": "royalnevergiveup",
+      "x": 0,
+      "y": 1,
+      "date": "2022-05-12",
+      "format": "BO1",
+      "source": "https://lol.fandom.com/wiki/2022_Mid-Season_Invitational",
+      "original_event": "MSI 2022"
+    }
+  ],
+  "riot_replay_notice": "https://lolesports.com/en-GB/news/riot-games-tech-blog-artificial-latency-for-remote-competitors",
+  "source_note": "Leaguepedia GPTilt snapshot compared against retained Games of Legends records; three voided original broadcasts are recorded separately, never counted as official wins. No automatic changes to study scores."
+}
