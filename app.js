@@ -219,11 +219,8 @@ function drawAll(replay=false) {
   const combinedAll=[...lplAll,...lckAll];
   const combinedRows=scoreFilteredRows(viewModes.combined==='highlight'?combinedAll:[...clubRows(rows,'LPL',clubFilters.combined.LPL),...clubRows(rows,'LCK',clubFilters.combined.LCK)],'combined');
   const n=chart('combined',combinedRows,replay,combinedHighlight,viewModes.combined==='highlight');
-  const lplN=chart('lpl',lplRows,replay,lplHighlight,viewModes.lpl==='highlight');
-  const lckN=chart('lck',lckRows,replay,lckHighlight,viewModes.lck==='highlight');
-  $('lpl-count').textContent=`${lplN} 个点 · 与另两图同一尺度`;
-  $('lck-count').textContent=`${lckN} 个点 · 与另两图同一尺度`;
-  $('plot-count').textContent=`${n} 个可绘图样本 / ${combinedRows.length} 个筛选样本`;
+  chart('lpl',lplRows,replay,lplHighlight,viewModes.lpl==='highlight');
+  chart('lck',lckRows,replay,lckHighlight,viewModes.lck==='highlight');
   const missing=combinedRows.filter(s=>(s.internal.n||s[scope()].n)&&(!s[scope()].n||(!s.internal.n&&!seeded())));
   const omitted=combinedRows.length-n;
   $('missing').textContent=`${missing.length} 个样本放在无交手带；带内位置不代表缺少的那一项分数。空心点表示缺少一侧交手。${seeded()?'无内战但有外战的空心点横坐标仅来自种子基础分。':''}${omitted} 个两项均无交手的样本不绘图，仍可在队伍列表与战绩表查看。`;
