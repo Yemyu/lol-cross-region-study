@@ -218,12 +218,17 @@ function drawAll(replay=false) {
   const lckRows=scoreFilteredRows(viewModes.lck==='highlight'?lckAll:clubRows(rows,'LCK',clubFilters.lck),'lck');
   const combinedAll=[...lplAll,...lckAll];
   const combinedRows=scoreFilteredRows(viewModes.combined==='highlight'?combinedAll:[...clubRows(rows,'LPL',clubFilters.combined.LPL),...clubRows(rows,'LCK',clubFilters.combined.LCK)],'combined');
-  const n=chart('combined',combinedRows,replay,combinedHighlight,viewModes.combined==='highlight');
+  chart('combined',combinedRows,replay,combinedHighlight,viewModes.combined==='highlight');
   chart('lpl',lplRows,replay,lplHighlight,viewModes.lpl==='highlight');
   chart('lck',lckRows,replay,lckHighlight,viewModes.lck==='highlight');
-  const missing=combinedRows.filter(s=>(s.internal.n||s[scope()].n)&&(!s[scope()].n||(!s.internal.n&&!seeded())));
-  const omitted=combinedRows.length-n;
-  $('missing').textContent=`${missing.length} 个样本放在无交手带；带内位置不代表缺少的那一项分数。空心点表示缺少一侧交手。${seeded()?'无内战但有外战的空心点横坐标仅来自种子基础分。':''}${omitted} 个两项均无交手的样本不绘图，仍可在队伍列表与战绩表查看。`;
+  const completedRows=combinedRows.filter(s=>s.status!=='partial_year');
+  const missing=completedRows.filter(s=>(s.internal.n||s[scope()].n)&&(!s[scope()].n||(!s.internal.n&&!seeded())));
+  const omitted=completedRows.filter(s=>!s.internal.n&&!s[scope()].n).length;
+  const notes=[];
+  if(missing.length) notes.push(`${missing.length} 个完整年度样本放在无交手带；带内位置不代表缺少的那一项分数。`);
+  if(omitted) notes.push(`${omitted} 个完整年度样本没有${scope()==='external'?'重要外战':'外战'}及国际赛内战记录，不绘图，仍可在队伍列表与战绩表查看。`);
+  if(combinedRows.some(s=>s.status==='partial_year')) notes.push('2026 年尚未结束，不计入上述无交手统计。');
+  $('missing').textContent=notes.join('');
 }
 function formatText(c) {return ['BO5','BO3','BO1'].map(f=>`${f} ${c.formats[f].w}–${c.formats[f].l}`).join(' · ');}
 function formatBranches(c) {
