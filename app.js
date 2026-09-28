@@ -223,10 +223,10 @@ function drawAll(replay=false) {
   chart('lck',lckRows,replay,lckHighlight,viewModes.lck==='highlight');
   const completedRows=combinedRows.filter(s=>s.status!=='partial_year');
   const missing=completedRows.filter(s=>(s.internal.n||s[scope()].n)&&(!s[scope()].n||(!s.internal.n&&!seeded())));
-  const omitted=completedRows.filter(s=>!s.internal.n&&!s[scope()].n).length;
+  const omitted=completedRows.filter(s=>!s.internal.n&&!s[scope()].n);
   const notes=[];
   if(missing.length) notes.push(`${missing.length} 个完整年度样本放在无交手带；带内位置不代表缺少的那一项分数。`);
-  if(omitted) notes.push(`${omitted} 个完整年度样本没有${scope()==='external'?'重要外战':'外战'}及国际赛内战记录，不绘图，仍可在队伍列表与战绩表查看。`);
+  if(omitted.length) notes.push(`${omitted.length} 个完整年度样本没有${scope()==='external'?'重要外战':'外战'}及国际赛内战记录：${omitted.map(s=>`${s.year} ${s.short}`).join('、')}。这些样本不绘图，仍可在队伍列表与战绩表查看。`);
   if(combinedRows.some(s=>s.status==='partial_year')) notes.push('2026 年尚未结束，不计入上述无交手统计。');
   $('missing').textContent=notes.join('');
 }
