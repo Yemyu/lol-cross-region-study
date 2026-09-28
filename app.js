@@ -291,8 +291,7 @@ function renderDetails() {
     <div class="record-block"><h4>国际赛内战 · 大场合计</h4><p>${record(s.internal)} / ${s.internal.n} 场 · ${pct(s.internal.rate)} <small>实际大场胜率</small></p>${formatBranches(s.internal)}<p class="inner-parts">只统计 MSI 与世界赛同赛区交手；国内联赛不计入。</p><p class="seed-summary">${seedDescription(s)}<br>比赛积分 ${fmt(s.inner_score||0)} ＋ MSI ${fmt(s.msi_seed_base)} ＋ 世界赛 ${fmt(s.worlds_seed_base)} ＝ ${fmt(s.seeded_inner_score)}${s.internal.n?'':'（内战 0 场，仅种子分）'}。<br>${s.msi_seed?`<a href="${html(s.msi_seed_source)}" target="_blank" rel="noopener">MSI 种子依据 ↗</a> · `:''}<a href="${html(s.seed_source)}" target="_blank" rel="noopener">世界赛种子依据 ↗</a></p></div>`;
   renderMatchDetail(s);
   $('calc-title').innerHTML=`${brandIcon(s.team)}${s.year} ${html(s.short)} · 计算明细`;
-  const total=`当前横轴：${innerLabel()}。${seeded()?`比赛积分 ${fmt(s.inner_score||0)} ＋ MSI 种子 ${fmt(s.msi_seed_base)} ＋ 世界赛种子 ${fmt(s.worlds_seed_base)} ＝ ${fmt(s.seeded_inner_score)}。${seedDescription(s)}`:'此视图只显示国际赛内战的比赛积分，不加种子基础分。'}国内比赛不计分，败场统一扣同赛事、同赛制胜利基础分的 50%。`;
-  $('calc-body').innerHTML=`<div class="calc-grid"><div class="calc-item"><b>${scope()==='external'?'重要':'全部'}外战</b>${formula(e)}</div><div class="calc-item"><b>国际赛内战</b>${formula(s.international)}</div></div><div class="calc-total">${total}</div>`;
+  $('calc-body').innerHTML=`<div class="calc-grid"><div class="calc-item"><b>${scope()==='external'?'重要':'全部'}外战</b>${formula(e)}</div><div class="calc-item"><b>国际赛内战</b>${formula(s.international)}</div></div>`;
   $('match-title').textContent=`${s.year} ${s.short} · 所选外战与国际赛内战逐场记录`;
   const ids=[...new Set([...e.ids,...s.internal.ids])];
   $('matches').innerHTML=ids.map(id=>D.matches[id]).sort((a,b)=>a.date.localeCompare(b.date)).map(r=>{
